@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: pkhalladin-bookstore
+    envVars:
+      - key: NODE_VERSION
+        value: 22.11.0
