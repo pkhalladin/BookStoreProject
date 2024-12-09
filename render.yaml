@@ -1,6 +1,9 @@
 services:
   - type: web
     name: pkhalladin-bookstore
+    runtime: nodejs
+    buildCommand: npm run build
+    startCommand: npm run start
     envVars:
       - key: NODE_VERSION
         value: 22.11.0
